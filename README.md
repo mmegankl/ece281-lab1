@@ -42,3 +42,7 @@ Then it **elaborates** the *any* entity with the name `*_tb`. In this case, that
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail **with** `severity failure` then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+Documentation Statement: I receive help from C3C Komata on 2/12 for the logic portion with VHDL, especially with the MUX logic in the thirtyonedays.vhd file after my logic was not working.
+She also helped with the tb .vhd file explaining to me what these test cases were for. Lt Col Trimble helped me on 2/12 with the syntax errors I had. He helped me to fix my select variables
+and the MUX logic variables in the regular .vhd file.
